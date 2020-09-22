@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="5" failures="0" name="TestSuite" time="2.897" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_66\jre\bin"/>
+    <property name="java.vm.version" value="25.66-b17"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\lll\Workspaces\MyEclipse 8.5\api_auto_001"/>
+    <property name="java.runtime.version" value="1.8.0_66-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="C:\Users\lll\Workspaces\MyEclipse 8.5\api_auto_001"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_66\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="surefire.real.class.path" value="C:\Users\lll\Workspaces\MyEclipse 8.5\api_auto_001\target\surefire\surefirebooter629004362699808787.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\lll\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_66\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\soft\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\soft\bin;C:\Users\lll\AppData\Roaming\npm;C:\Windows\System32\wbem;C:\Users\lll\Desktop\sqlite-dll-win64-x64-3310100;C:\Program Files\Microsoft\Web Platform Installer\;C:\Users\lll\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\lll\AppData\Local\Programs\Python\Python38\;C:\Users\lll\AppData\Local\Microsoft\WindowsApps;C:\soft\Microsoft VS Code\bin;C:\Users\lll\AppData\Roaming\npmC:\Program Files (x86)\Java\jdk1.8.0_66\bin;C:\Users\lll\AppData\Local\Programs\Fiddler;C:\Python27\Scripts;C:\soft\mysql-8.0.20-winx64\bin;C:\soft\Git\bin;C:\Users\lll\AppData\Local\Programs\Python\allure-2.7.0\bin;C:\soft\maven\bin\;."/>
+    <property name="surefire.test.class.path" value="C:\Users\lll\Workspaces\MyEclipse 8.5\api_auto_001\target\test-classes;C:\Users\lll\Workspaces\MyEclipse 8.5\api_auto_001\target\classes;C:\soft\maven\maven-repository\org\apache\httpcomponents\httpclient\4.5.12\httpclient-4.5.12.jar;C:\soft\maven\maven-repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\soft\maven\maven-repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\soft\maven\maven-repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\soft\maven\maven-repository\org\json\json\20200518\json-20200518.jar;C:\soft\maven\maven-repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\soft\maven\maven-repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\soft\maven\maven-repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\soft\maven\maven-repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\soft\maven\maven-repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\soft\maven\maven-repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\soft\maven\maven-repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\soft\maven\maven-repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\soft\maven\maven-repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\soft\maven\maven-repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\soft\maven\maven-repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\soft\maven\maven-repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\soft\maven\maven-repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\soft\maven\maven-repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\soft\maven\maven-repository\com\alibaba\fastjson\1.2.68\fastjson-1.2.68.jar;C:\soft\maven\maven-repository\mysql\mysql-connector-java\5.1.18\mysql-connector-java-5.1.18.jar;C:\soft\maven\maven-repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\lll"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="lll"/>
+    <property name="java.class.path" value="C:\Users\lll\Workspaces\MyEclipse 8.5\api_auto_001\target\test-classes;C:\Users\lll\Workspaces\MyEclipse 8.5\api_auto_001\target\classes;C:\soft\maven\maven-repository\org\apache\httpcomponents\httpclient\4.5.12\httpclient-4.5.12.jar;C:\soft\maven\maven-repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\soft\maven\maven-repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\soft\maven\maven-repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\soft\maven\maven-repository\org\json\json\20200518\json-20200518.jar;C:\soft\maven\maven-repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\soft\maven\maven-repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\soft\maven\maven-repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\soft\maven\maven-repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\soft\maven\maven-repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\soft\maven\maven-repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\soft\maven\maven-repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\soft\maven\maven-repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\soft\maven\maven-repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\soft\maven\maven-repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\soft\maven\maven-repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\soft\maven\maven-repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\soft\maven\maven-repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\soft\maven\maven-repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\soft\maven\maven-repository\com\alibaba\fastjson\1.2.68\fastjson-1.2.68.jar;C:\soft\maven\maven-repository\mysql\mysql-connector-java\5.1.18\mysql-connector-java-5.1.18.jar;C:\soft\maven\maven-repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_66\jre"/>
+    <property name="sun.java.command" value="C:\Users\lll\Workspaces\MyEclipse 8.5\api_auto_001\target\surefire\surefirebooter629004362699808787.jar C:\Users\lll\Workspaces\MyEclipse 8.5\api_auto_001\target\surefire\surefire2717491949162562669tmp C:\Users\lll\Workspaces\MyEclipse 8.5\api_auto_001\target\surefire\surefire3862556544474350029tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_66"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_66\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_66\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_66\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_66\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_66\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_66\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_66\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_66\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_66\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="C:\soft\maven\maven-repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase classname="com.llr.Cases.loginTest" name="f" time="1.334"/>
+  <testcase classname="com.llr.Cases.loginTest" name="f" time="0.095"/>
+  <testcase classname="com.llr.Cases.loginTest" name="f" time="0.101"/>
+  <testcase classname="com.llr.Cases.loginTest" name="f" time="0.09"/>
+  <testcase classname="com.llr.Cases.GetChannelsTest" name="f" time="0.091"/>
+</testsuite>

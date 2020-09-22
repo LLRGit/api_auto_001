@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1988" started-at="2020-09-21T08:51:05Z" finished-at="2020-09-21T08:51:07Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1988" started-at="2020-09-21T08:51:05Z" finished-at="2020-09-21T08:51:07Z">
+      <class name="com.llr.Cases.loginTest">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.llr.Cases.loginTest@1aaf0b3]" name="f" duration-ms="1154" started-at="2020-09-21T16:51:05Z" data-provider="datas" finished-at="2020-09-21T16:51:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"mobile":"${registerTelphone}","code":"949234"}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"message": "Invalid code."}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[{"no":"01","sql":"select  count(*) as totalNum from students;"},{"no":"02","sql":"select  count(*) as totalNum from students where studentNo='001';"}]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[[{"no":"01","sql":"select  count(*) as totalNum from students where sex='Ů';"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.llr.Cases.loginTest@1aaf0b3]" name="f" duration-ms="114" started-at="2020-09-21T16:51:06Z" data-provider="datas" finished-at="2020-09-21T16:51:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"mobile":"${registerTelphone}","code":""}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"message": {"code": "Invalid params."}}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.llr.Cases.loginTest@1aaf0b3]" name="f" duration-ms="94" started-at="2020-09-21T16:51:06Z" data-provider="datas" finished-at="2020-09-21T16:51:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"mobile":"","code":"${code}"}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"message": {"mobile": "1804605341 is not a valid mobile"}}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.llr.Cases.loginTest@1aaf0b3]" name="f" duration-ms="115" started-at="2020-09-21T16:51:06Z" data-provider="datas" finished-at="2020-09-21T16:51:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"mobile":"${registerTelphone}1","code":"${code}"}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"message": {"mobile": "${registerTelphone}1 is not a valid mobile"}}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.llr.Cases.loginTest -->
+      <class name="com.llr.Cases.GetChannelsTest">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.llr.Cases.GetChannelsTest@f6438d]" name="f" duration-ms="99" started-at="2020-09-21T16:51:07Z" data-provider="datas" finished-at="2020-09-21T16:51:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"message": "Token has some errors."}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="RollBackToExcel()[pri:0, instance:com.llr.Cases.GetChannelsTest@f6438d]" name="RollBackToExcel" is-config="true" duration-ms="55" started-at="2020-09-21T16:51:07Z" finished-at="2020-09-21T16:51:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RollBackToExcel -->
+      </class> <!-- com.llr.Cases.GetChannelsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

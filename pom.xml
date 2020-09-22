@@ -1,0 +1,70 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.llr.group</groupId>
+  <artifactId>api_auto_001</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+    <dependencies>
+  	<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+	<dependency>
+	    <groupId>org.apache.httpcomponents</groupId>
+	    <artifactId>httpclient</artifactId>
+	    <version>4.5.12</version>
+	</dependency>
+  	<!-- https://mvnrepository.com/artifact/org.json/json -->
+	<dependency>
+	    <groupId>org.json</groupId>
+	    <artifactId>json</artifactId>
+	    <version>20200518</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.testng</groupId>
+	    <artifactId>testng</artifactId>
+	    <version>7.1.0</version>
+	    <scope>test</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+	<dependency>
+	    <groupId>org.apache.poi</groupId>
+	    <artifactId>poi-ooxml</artifactId>
+	    <version>3.17</version>
+	</dependency>
+	 <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+	<dependency>
+	    <groupId>com.alibaba</groupId>
+	    <artifactId>fastjson</artifactId>
+	    <version>1.2.68</version>
+	</dependency>	
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+	<dependency>
+	    <groupId>mysql</groupId>
+	    <artifactId>mysql-connector-java</artifactId>
+	    <version>5.1.18</version>
+	</dependency> 
+	<dependency>
+	    <groupId>log4j</groupId>
+	    <artifactId>log4j</artifactId>
+	    <version>1.2.17</version>
+	</dependency>
+  </dependencies>
+  <build>
+  	<plugins>
+  		 <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.7.1</version>					
+                <configuration>
+                <!-- 忽略测试套件执行过程中执行失败的测试方法，继续执行剩余的测试类和测试方法 -->
+					<testFailureIgnore>
+						true
+					</testFailureIgnore>
+					<!-- 指定构建过程中的编码格式 -->
+                    <!-- <argLine>-Dfile.encoding=UTF-8</argLine> -->
+                    <!-- 执行构建（执行测试套件时）时 要执行的测试套件文件的路径-->
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/test/java/TestNG.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+  	</plugins>
+  </build>
+</project>

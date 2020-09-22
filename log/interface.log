@@ -1,0 +1,38 @@
+2020-09-21 16:51:05 com.llr.DataBaseUtil.ConnectDataBase(DataBaseUtil.java:67) DataBaseUtil.java INFO 连接成功 
+2020-09-21 16:51:06 com.llr.DataBaseUtil.ConnectDataBase(DataBaseUtil.java:67) DataBaseUtil.java INFO 连接成功 
+2020-09-21 16:51:06 com.llr.AssertUtil.AssertResult(AssertUtil.java:18) AssertUtil.java INFO expctedResponseData:{"message": "Invalid code."} 
+2020-09-21 16:51:06 com.llr.AssertUtil.AssertResult(AssertUtil.java:19) AssertUtil.java INFO response:{"message": "Invalid code."} 
+2020-09-21 16:51:06 com.llr.AssertUtil.AssertResult(AssertUtil.java:33) AssertUtil.java INFO 比对结果1：pass 
+2020-09-21 16:51:06 com.llr.DataBaseUtil.ConnectDataBase(DataBaseUtil.java:67) DataBaseUtil.java INFO 连接成功 
+2020-09-21 16:51:06 com.llr.AssertUtil.AssertResult(AssertUtil.java:18) AssertUtil.java INFO expctedResponseData:{"message": {"code": "Invalid params."}} 
+2020-09-21 16:51:06 com.llr.AssertUtil.AssertResult(AssertUtil.java:19) AssertUtil.java INFO response:{"message": {"code": "Invalid params."}} 
+2020-09-21 16:51:06 com.llr.AssertUtil.AssertResult(AssertUtil.java:33) AssertUtil.java INFO 比对结果1：pass 
+2020-09-21 16:51:06 com.llr.AssertUtil.AssertResult(AssertUtil.java:18) AssertUtil.java INFO expctedResponseData:{"message": {"mobile": "1804605341 is not a valid mobile"}} 
+2020-09-21 16:51:06 com.llr.AssertUtil.AssertResult(AssertUtil.java:19) AssertUtil.java INFO response:{"message": {"mobile": " is not a valid mobile"}} 
+2020-09-21 16:51:06 com.llr.AssertUtil.AssertResult(AssertUtil.java:33) AssertUtil.java INFO 比对结果1：{"message": {"mobile": " is not a valid mobile"}}
+ 
+2020-09-21 16:51:07 com.llr.AssertUtil.AssertResult(AssertUtil.java:18) AssertUtil.java INFO expctedResponseData:{"message": {"mobile": "180460534131 is not a valid mobile"}} 
+2020-09-21 16:51:07 com.llr.AssertUtil.AssertResult(AssertUtil.java:19) AssertUtil.java INFO response:{"message": {"mobile": "180460534131 is not a valid mobile"}} 
+2020-09-21 16:51:07 com.llr.AssertUtil.AssertResult(AssertUtil.java:33) AssertUtil.java INFO 比对结果1：pass 
+2020-09-21 16:51:07 com.llr.AssertUtil.AssertResult(AssertUtil.java:18) AssertUtil.java INFO expctedResponseData:{"message": "Token has some errors."} 
+2020-09-21 16:51:07 com.llr.AssertUtil.AssertResult(AssertUtil.java:19) AssertUtil.java INFO response:{"message": "Token has some errors."} 
+2020-09-21 16:51:07 com.llr.AssertUtil.AssertResult(AssertUtil.java:33) AssertUtil.java INFO 比对结果1：pass 
+2020-09-21 17:48:02 com.llr.DataBaseUtil.ConnectDataBase(DataBaseUtil.java:67) DataBaseUtil.java INFO 连接成功 
+2020-09-21 17:48:02 com.llr.DataBaseUtil.ConnectDataBase(DataBaseUtil.java:67) DataBaseUtil.java INFO 连接成功 
+2020-09-21 17:48:03 com.llr.AssertUtil.AssertResult(AssertUtil.java:18) AssertUtil.java INFO expctedResponseData:{"message": "Invalid code."} 
+2020-09-21 17:48:03 com.llr.AssertUtil.AssertResult(AssertUtil.java:19) AssertUtil.java INFO response:{"message": "Invalid code."} 
+2020-09-21 17:48:03 com.llr.AssertUtil.AssertResult(AssertUtil.java:33) AssertUtil.java INFO 比对结果1：pass 
+2020-09-21 17:48:03 com.llr.DataBaseUtil.ConnectDataBase(DataBaseUtil.java:67) DataBaseUtil.java INFO 连接成功 
+2020-09-21 17:48:03 com.llr.AssertUtil.AssertResult(AssertUtil.java:18) AssertUtil.java INFO expctedResponseData:{"message": {"code": "Invalid params."}} 
+2020-09-21 17:48:03 com.llr.AssertUtil.AssertResult(AssertUtil.java:19) AssertUtil.java INFO response:{"message": {"code": "Invalid params."}} 
+2020-09-21 17:48:03 com.llr.AssertUtil.AssertResult(AssertUtil.java:33) AssertUtil.java INFO 比对结果1：pass 
+2020-09-21 17:48:03 com.llr.AssertUtil.AssertResult(AssertUtil.java:18) AssertUtil.java INFO expctedResponseData:{"message": {"mobile": "1804605341 is not a valid mobile"}} 
+2020-09-21 17:48:03 com.llr.AssertUtil.AssertResult(AssertUtil.java:19) AssertUtil.java INFO response:{"message": {"mobile": " is not a valid mobile"}} 
+2020-09-21 17:48:03 com.llr.AssertUtil.AssertResult(AssertUtil.java:33) AssertUtil.java INFO 比对结果1：{"message": {"mobile": " is not a valid mobile"}}
+ 
+2020-09-21 17:48:03 com.llr.AssertUtil.AssertResult(AssertUtil.java:18) AssertUtil.java INFO expctedResponseData:{"message": {"mobile": "180460534131 is not a valid mobile"}} 
+2020-09-21 17:48:03 com.llr.AssertUtil.AssertResult(AssertUtil.java:19) AssertUtil.java INFO response:{"message": {"mobile": "180460534131 is not a valid mobile"}} 
+2020-09-21 17:48:03 com.llr.AssertUtil.AssertResult(AssertUtil.java:33) AssertUtil.java INFO 比对结果1：pass 
+2020-09-21 17:48:03 com.llr.AssertUtil.AssertResult(AssertUtil.java:18) AssertUtil.java INFO expctedResponseData:{"message": "Token has some errors."} 
+2020-09-21 17:48:03 com.llr.AssertUtil.AssertResult(AssertUtil.java:19) AssertUtil.java INFO response:{"message": "Token has some errors."} 
+2020-09-21 17:48:03 com.llr.AssertUtil.AssertResult(AssertUtil.java:33) AssertUtil.java INFO 比对结果1：pass 
